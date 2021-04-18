@@ -1,0 +1,94 @@
+body {
+	background-color: #f4f3fc;
+	font-family: 'Assistant', sans-serif;
+	font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+	font-size: 100px;
+	text-align: center;
+}
+
+.leadings {
+	font-size: 30px;
+	font-weight: bolder;
+}
+
+input {
+	display: inline-block;
+	margin-right:20px;
+	/*margin-left: 750px;*/
+	/*text-align: center;*/
+} 
+
+#btnAbout {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#heading {
+	text-align: center;
+}
+
+.options { 
+	display: inline-block;
+	color: #000000;
+}
+
+div {
+	text-align: center;
+}
+
+.navbar {
+  background-color: #dfe9eb;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+}
+
+.navigationButton {
+	color: #000000;
+	margin-left: 10px;
+	text-align: center;
+	font-size: 20px;
+}
+
+#logoInBar {
+	float: left;
+}
+
+a {
+	text-decoration: none;
+}
+
+#someMathTips {
+	height: 550px;
+	background-color: #FFFFFF;
+}
+
+#someMathTips h3 {
+	font-size: 50px;
+	float: left;
+	margin-left: 10px;
+}
+
+#someMathTips p {
+	text-align: center;
+	padding-right: 100px;
+	padding-left: 100px;
+	padding-top: 200px;
+	padding-bottom: 50px;
+	font-size: 20px;
+}
+
+#someMathTips ol {
+	padding: 0px 100px;
+}

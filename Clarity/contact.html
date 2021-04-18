@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<link rel="stylesheet" href="styles.css">
+		<script type="module" src="script.js"></script>
+		<title>Resources</title>
+		
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+		
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+		
+	</head>
+	<body>
+		
+		<div id="contactpg">
+			<section id="contactSection">
+				<h3 id="contactHeading">Contact</h3>
+					<form id="contact" action='/survey/checkout' method='post' enctype="multipart/form-data">
+						<input type="name" placeholder='Name:' required>
+						<input type="email" placeholder='Email: ' required>
+						<textarea placeholder='Write your message here :)' required></textarea>
+						<button id="submit">Submit</button>
+						<input type='hidden' name='redirecturl' value='thankyou.html'>
+						<input type='hidden' name='survey' value='Contact'>
+					</form>
+			</section>
+		</div>
+		
+		<div id="contactpg">
+			<section id="contactSection">
+				<h3 id="contactHeading">Improvements</h3>
+					<form id="contact" action='/survey/checkout' method='post' enctype="multipart/form-data">
+						<input type="name" placeholder='Name:' required>
+						<input type="email" placeholder='Email: ' required>
+						<textarea placeholder='What improvments could I make for Clarity? :)' required></textarea>
+						<button id="submit">Submit</button>
+						<input type='hidden' name='redirecturl' value='thankyou.html'>
+						<input type='hidden' name='survey' value='Contact'>
+					</form>
+			</section>
+		</div>
+		
+		<div class="navbar">
+			<img id="logoInBar" src="logo.jpg" width=30px height=30px>
+			<a href="index.html" class="navigationButton">Home</a>
+			<a href="about.html" class="navigationButton">About</a>
+			<a href="contact.html" class="navigationButton">Contact</a>
+			<a href="resources.html" class="navigationButton">Resources</a>
+		</div>
+		
+	</body>
+</html>

@@ -1,4 +1,4 @@
-Clarity ()
+Clarity
 ==================
 ## What Clarity does
 Clarity aims to help students in mental and physical health, but helping them in different ways. It hopes that it can help stduents academically through educational material, and it hopes to help in mental and physical with sounds, music, and workoutvideos.
